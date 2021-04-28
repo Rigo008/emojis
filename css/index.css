@@ -2,12 +2,22 @@
     margin: 0;
     padding: 0;
 }
-.casillas{
 
+.titulo{
+color:black; 
+font-size:50;
+text-align: center;
+margin-top: 75px;
+}
+
+
+.casillas{
+    width: auto;
+    height: auto;
     background-color: gray;
-    margin-top: 50px;
+    margin-top: 60px;
     margin: auto;
-    padding: 100px;
+    padding: auto;
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
@@ -18,7 +28,7 @@
     height: 150px;
     background-color: gainsboro;
     border: 1px solid blue;
-    margin: 10px;
+    margin: 20px;
     font-size: 95px;
     text-align: center;
     
